@@ -3,7 +3,7 @@
 # ~~~~
 
 # Calendar Controller
-GET     /calendars/list              controllers.CalendarController.List #List all a users calendars
+GET     /calendars/list              controllers.CalendarController.List
 
 
 
