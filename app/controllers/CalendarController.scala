@@ -10,7 +10,11 @@ import play.api.mvc.Action
 import play.api.mvc.Results._
 
 object CalendarController extends Controller {
-	def List = Action {
-		request => Ok("Got request [" + request + "]")
+	def List = Action { request =>
+		Ok("Got request [" + request + "]")
+	}
+
+	def Create = Action { request =>
+		Ok("Creating Calendar")
 	}
 }
