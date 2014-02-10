@@ -8,6 +8,9 @@ package controllers
 import play.mvc.Controller
 import play.api.mvc.Action
 import play.api.mvc.Results._
+import play.api.libs.json
+import models.Calendar
+import play.api.libs.json.{Json, JsValue}
 
 object CalendarController extends Controller {
 	def List = Action { request =>
@@ -15,7 +18,7 @@ object CalendarController extends Controller {
 	}
 
 	def Create = Action { request =>
-		Ok("Creating Calendar")
+		Ok("Here's the body ")
 	}
 
 	def Delete(id: Int) = Action { request =>
