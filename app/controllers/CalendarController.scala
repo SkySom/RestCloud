@@ -17,4 +17,10 @@ object CalendarController extends Controller {
 	def Create = Action { request =>
 		Ok("Creating Calendar")
 	}
+
+	def Delete(id: Int) = Action { request =>
+		Ok("Deleting Calender " + id)
+	}
+
+
 }
