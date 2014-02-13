@@ -1,4 +1,4 @@
-package controllers
+package controllers.Calendar
 
 /**
  * @author Skylar Sommers
@@ -8,9 +8,9 @@ package controllers
 import play.mvc.Controller
 import play.api.mvc.Action
 import play.api.mvc.Results._
-import models.Calendar
 import play.api.libs.json._
 import play.api.libs.functional.syntax._
+import models.Calendar.Calendar
 
 object CalendarController extends Controller {
 
@@ -38,6 +38,4 @@ object CalendarController extends Controller {
 	def Delete(id: Int) = Action { request =>
 		Ok("Deleting Calender " + id)
 	}
-
-
 }

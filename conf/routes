@@ -3,9 +3,9 @@
 # ~~~~
 
 # Calendar Controller
-GET     /calendars/list              controllers.CalendarController.List
-POST    /calendars                   controllers.CalendarController.Create
-DELETE  /calendars/:id               controllers.CalendarController.Delete(id: Int)
+GET     /calendar/list              controllers.Calendar.CalendarController.List
+POST    /calendar                   controllers.Calendar.CalendarController.Create
+DELETE  /calendar/:id               controllers.Calendar.CalendarController.Delete(id: Int)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
