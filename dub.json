@@ -2,9 +2,10 @@
 	"name": "restcloud",
 	"description": "A simple vibe.d server application.",
 	"copyright": "Copyright © 2014, Skylar",
-	"authors": ["Skylar"],
+	"authors": ["Skylar Sommers"],
 	"dependencies": {
-		"vibe-d": ">=0.7.17"
+		"vibe-d": ">=0.7.17",
+		"ddb": ">=0.2.2"
 	},
 	"versions": ["VibeDefaultMain"]
 }
