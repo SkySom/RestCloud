@@ -1,9 +1,12 @@
+import std.stdio;
 import vibe.d;
+import config;
 
 shared static this()
 {
 	auto settings = new HTTPServerSettings;
-	settings.port = 8080;
+	auto config = new Config;
+	settings.port = config.getSetting("Port");
 	settings.bindAddresses = ["::1", "127.0.0.1"];
 	listenHTTP(settings, &hello);
 
