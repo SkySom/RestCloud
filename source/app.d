@@ -6,7 +6,7 @@ shared static this()
 {
 	auto settings = new HTTPServerSettings;
 	auto config = new Config;
-	settings.port = config.getSetting("Port");
+	settings.port = 8080;
 	settings.bindAddresses = ["::1", "127.0.0.1"];
 	listenHTTP(settings, &hello);
 
