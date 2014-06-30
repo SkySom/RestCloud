@@ -7,6 +7,7 @@
 	"dependencies": {
 		"vibe-d": ">=0.7.17",
 		"ddb": ">=0.2.2",
+        "libdjson": "~master"
 	},
 	"versions": ["VibeDefaultMain"]
 }
