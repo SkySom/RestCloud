@@ -1,0 +1,328 @@
+<DProject>
+  <ProjectGuid>{3AFDC1AC-D018-40A7-800C-2997EB1358AA}</ProjectGuid>
+  <Config name="debug" platform="Win32">
+    <symdebug>1</symdebug>
+    <optimize>0</optimize>
+    <useInline>0</useInline>
+    <release>0</release>
+    <lib>1</lib>
+    <exefile>.dub\lib\vibe-d_d.lib</exefile>
+    <imppath>"..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source" "..\..\..\AppData\Roaming\dub\packages\libevent-master" "..\..\..\AppData\Roaming\dub\packages\openssl-master"</imppath>
+    <fileImppath></fileImppath>
+    <program>$(DMDInstallDir)windows\bin\dmd.exe</program>
+    <additionalOptions></additionalOptions>
+    <versionids>VibeLibeventDriver VibeDefaultMain Have_vibe_d Have_libevent Have_openssl</versionids>
+    <useUnitTests>0</useUnitTests>
+    <obj>0</obj>
+    <link>0</link>
+    <subsystem>0</subsystem>
+    <multiobj>0</multiobj>
+    <singleFileCompilation>2</singleFileCompilation>
+    <oneobj>0</oneobj>
+    <trace>0</trace>
+    <quiet>0</quiet>
+    <verbose>0</verbose>
+    <vtls>0</vtls>
+    <cpu>0</cpu>
+    <isX86_64>0</isX86_64>
+    <isLinux>0</isLinux>
+    <isOSX>0</isOSX>
+    <isWindows>0</isWindows>
+    <isFreeBSD>0</isFreeBSD>
+    <isSolaris>0</isSolaris>
+    <scheduler>0</scheduler>
+    <useDeprecated>0</useDeprecated>
+    <useAssert>0</useAssert>
+    <useInvariants>0</useInvariants>
+    <useIn>0</useIn>
+    <useOut>0</useOut>
+    <useArrayBounds>0</useArrayBounds>
+    <noboundscheck>0</noboundscheck>
+    <useSwitchError>0</useSwitchError>
+    <preservePaths>1</preservePaths>
+    <warnings>1</warnings>
+    <infowarnings>0</infowarnings>
+    <checkProperty>0</checkProperty>
+    <genStackFrame>0</genStackFrame>
+    <pic>0</pic>
+    <cov>0</cov>
+    <nofloat>0</nofloat>
+    <Dversion>2</Dversion>
+    <ignoreUnsupportedPragmas>0</ignoreUnsupportedPragmas>
+    <compiler>0</compiler>
+    <otherDMD>0</otherDMD>
+    <outdir>.dub\lib\</outdir>
+    <objdir>.dub/obj/debug/dummy/dummy/dummy/vibe-d</objdir>
+    <objname />
+    <libname />
+    <doDocComments>0</doDocComments>
+    <docdir />
+    <docname />
+    <modules_ddoc />
+    <ddocfiles />
+    <doHdrGeneration>0</doHdrGeneration>
+    <hdrdir />
+    <hdrname />
+    <doXGeneration>1</doXGeneration>
+    <xfilename>$(IntDir)\$(TargetName).json</xfilename>
+    <debuglevel>0</debuglevel>
+    <versionlevel>0</versionlevel>
+    <debugids />
+    <dump_source>0</dump_source>
+    <mapverbosity>0</mapverbosity>
+    <createImplib>0</createImplib>
+    <defaultlibname />
+    <debuglibname />
+    <moduleDepsFile />
+    <run>0</run>
+    <runargs />
+    <runCv2pdb>1</runCv2pdb>
+    <pathCv2pdb>$(VisualDInstallDir)cv2pdb\cv2pdb.exe</pathCv2pdb>
+    <cv2pdbPre2043>0</cv2pdbPre2043>
+    <cv2pdbNoDemangle>0</cv2pdbNoDemangle>
+    <cv2pdbEnumType>0</cv2pdbEnumType>
+    <cv2pdbOptions />
+    <objfiles />
+    <linkswitches />
+    <libpaths />
+    <deffile />
+    <resfile />
+    <preBuildCommand />
+    <postBuildCommand />
+    <filesToClean>*.obj;*.cmd;*.build;*.dep</filesToClean>
+  </Config>
+  <Folder name="vibe-d">
+    <Folder name="libevent">
+    <Folder name="deimos">
+    <Folder name="event2">
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\_d_util.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\_tailq.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\buffer.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\bufferevent.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\bufferevent_ssl.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\dns.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\dns_struct.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\event.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\event_struct.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\http.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\http_struct.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\keyvalq_struct.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\listener.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\rpc.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\rpc_struct.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\tag.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\thread.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\deimos\event2\util.d" />
+    </Folder>
+    </Folder>
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\libevent-master\dub.json" />
+    </Folder>
+    <Folder name="openssl">
+    <Folder name="deimos">
+    <Folder name="openssl">
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\_d_util.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\aes.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\asn1.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\asn1_mac.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\asn1t.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\bio.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\blowfish.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\bn.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\buffer.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\camellia.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\cast_.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\cms.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\comp.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\conf.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\conf_api.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\crypto.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\des.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\des_old.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\dh.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\dsa.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\dso.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\dtls1.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\e_os2.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ebcdic.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ec.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ecdh.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ecdsa.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\engine.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\err.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\evp.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\hmac.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\idea.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\krb5_asn.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\kssl.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\lhash.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\md4.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\md5.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\mdc2.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\modes.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\obj_mac.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\objects.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ocsp.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\opensslconf.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\opensslv.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ossl_typ.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\pem.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\pem2.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\pkcs12.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\pkcs7.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\pqueue.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\rand.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\rc2.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\rc4.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ripemd.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\rsa.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\safestack.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\seed.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\sha.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ssl.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ssl2.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ssl23.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ssl3.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\stack.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\symhacks.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\tls1.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ts.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\txt_db.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ui.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\ui_compat.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\whrlpool.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\x509.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\x509_vfy.d" />
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\deimos\openssl\x509v3.d" />
+    </Folder>
+    </Folder>
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\openssl-master\dub.json" />
+    </Folder>
+    <Folder name="vibe-d">
+    <Folder name="source">
+    <Folder name="vibe">
+    <Folder name="core">
+    <Folder name="drivers">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\libev.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\libevent2.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\libevent2_tcp.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\threadedfile.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\utils.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\win32.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\drivers\winrt.d" />
+    </Folder>
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\args.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\concurrency.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\connectionpool.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\core.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\driver.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\file.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\log.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\net.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\stream.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\sync.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\core\task.d" />
+    </Folder>
+    <Folder name="crypto">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\crypto\cryptorand.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\crypto\passwordhash.d" />
+    </Folder>
+    <Folder name="data">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\data\bson.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\data\json.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\data\serialization.d" />
+    </Folder>
+    <Folder name="db">
+    <Folder name="mongo">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\mongo\client.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\mongo\collection.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\mongo\connection.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\mongo\cursor.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\mongo\database.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\mongo\mongo.d" />
+    </Folder>
+    <Folder name="redis">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\db\redis\redis.d" />
+    </Folder>
+    </Folder>
+    <Folder name="http">
+    <Folder name="auth">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\auth\basic_auth.d" />
+    </Folder>
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\client.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\common.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\dist.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\fileserver.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\form.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\log.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\proxy.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\rest.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\router.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\server.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\session.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\status.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\http\websockets.d" />
+    </Folder>
+    <Folder name="inet">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\inet\message.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\inet\mimetypes.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\inet\path.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\inet\url.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\inet\urltransfer.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\inet\webform.d" />
+    </Folder>
+    <Folder name="internal">
+    <Folder name="meta">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\meta\all.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\meta\codegen.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\meta\funcattr.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\meta\traits.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\meta\typetuple.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\meta\uda.d" />
+    </Folder>
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\internal\win32.d" />
+    </Folder>
+    <Folder name="mail">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\mail\smtp.d" />
+    </Folder>
+    <Folder name="stream">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\base64.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\counting.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\memory.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\operations.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\ssl.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\taskpipe.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\wrapper.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\stream\zlib.d" />
+    </Folder>
+    <Folder name="templ">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\templ\diet.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\templ\parsertools.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\templ\utils.d" />
+    </Folder>
+    <Folder name="textfilter">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\textfilter\html.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\textfilter\markdown.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\textfilter\urlencode.d" />
+    </Folder>
+    <Folder name="utils">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\utils\array.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\utils\dictionarylist.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\utils\hashmap.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\utils\memory.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\utils\string.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\utils\validation.d" />
+    </Folder>
+    <Folder name="web">
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\web\common.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\web\i18n.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\web\rest.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\web\web.d" />
+    </Folder>
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\d.d" />
+      <File path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\source\vibe\vibe.d" />
+    </Folder>
+    </Folder>
+      <File tool="None" path="..\..\..\AppData\Roaming\dub\packages\vibe-d-0.7.20\dub.json" />
+    </Folder>
+  </Folder>
+</DProject>
