@@ -18,3 +18,5 @@ dub.selections.json
 vibe-d
 tests/*/tests
 __test__libevent__
+
+*.exe_cv
