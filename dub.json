@@ -6,8 +6,12 @@
 	"authors": ["Skylar Sommers"],
 	"dependencies": {
 		"vibe-d": ">=0.7.17",
-		"ddb": ">=0.2.2",
+		"hibernated": "~master",
         "libdjson": "~master"
+	},
+	"subConfigurations": {
+		"hibernated":"PGSQL",
+		"ddbc":"PGSQL"
 	},
 	"versions": ["VibeDefaultMain"]
 }
