@@ -1,5 +1,5 @@
 module restcloud.configuration;
 
-class config {
+class appConfig : baseConfig {
 
 }
