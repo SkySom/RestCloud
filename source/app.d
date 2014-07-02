@@ -5,9 +5,9 @@ import restcloud.configuration.appConfig;
 shared static this()
 {
 	auto settings = new HTTPServerSettings;
-	auto appConfig = new AppConfigUtil;
-	appConfig.loadAppConfig();
-	settings.port = 8080;
+	auto appConfig = AppConfigUtil.loadAppConfig();
+	//TODO: Add type casting to appConfig.d
+	settings.port = cast(ushort)appConfig.port;
 	settings.bindAddresses = ["::1", "127.0.0.1"];
 	listenHTTP(settings, &hello);
 
