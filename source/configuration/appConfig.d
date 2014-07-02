@@ -1,5 +1,11 @@
 module restcloud.configuration.appConfig;
 
-class appConfig : baseConfig {
+import restcloud.configuration.baseConfig;
+
+class AppConfigUtil : BaseConfigUtil {
+
+}
+
+struct AppConfig {
 
 }
