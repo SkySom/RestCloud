@@ -22,4 +22,4 @@ __test__libevent__
 *.exe_cv
 
 #config-use the .sample.yaml for changes.
-config.yaml
+config/appConfig.json
