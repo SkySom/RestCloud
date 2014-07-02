@@ -100,8 +100,10 @@
   </Folder>
   <Folder name="restcloud">
    <Folder name="source">
+    <Folder name="configuration">
+     <File path="source\configuration\baseConfig.d" />
+    </Folder>
     <File tool="DMD" path="source\app.d" />
-    <File path="source\config.d" />
    </Folder>
    <Folder name="views">
     <File tool="None" path="views\.gitkeep" />
