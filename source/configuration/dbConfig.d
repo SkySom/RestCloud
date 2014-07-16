@@ -1,6 +1,6 @@
-module restcloud.configuration.dbConfig;
+module restcloud.configuration.dbconfig;
 
-import restcloud.configuration.baseConfig;
+import restcloud.configuration.baseconfig;
 
 class DbConfigUtil : BaseConfigUtil {
 

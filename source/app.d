@@ -1,6 +1,6 @@
 import std.stdio;
 import vibe.d;
-import restcloud.configuration.appConfig;
+import restcloud.configuration.appconfig;
 
 shared static this()
 {

@@ -1,4 +1,4 @@
-module restcloud.configuration.baseConfig;
+module restcloud.configuration.baseconfig;
 
 class BaseConfigUtil {
 

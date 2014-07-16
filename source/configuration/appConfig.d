@@ -1,6 +1,6 @@
-module restcloud.configuration.appConfig;
+module restcloud.configuration.appconfig;
 
-import restcloud.configuration.baseConfig;
+import restcloud.configuration.baseconfig;
 import vibe.data.json;
 import std.file;
 import vibe.d;
