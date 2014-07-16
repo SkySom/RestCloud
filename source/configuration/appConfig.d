@@ -23,6 +23,6 @@ class AppConfigUtil : BaseConfigUtil {
 }
 
 struct AppConfig {
-  int port;
+  ushort port;
   string address;
 }

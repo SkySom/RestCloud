@@ -6,8 +6,7 @@ shared static this()
 {
 	auto settings = new HTTPServerSettings;
 	auto appConfig = AppConfigUtil.loadAppConfig();
-	//TODO: Add type casting to appConfig.d
-	settings.port = cast(ushort)appConfig.port;
+	settings.port = appConfig.port;
 	settings.bindAddresses = ["::1", "127.0.0.1"];
 	listenHTTP(settings, &hello);
 
