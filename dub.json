@@ -6,8 +6,7 @@
 	"authors": ["Skylar Sommers"],
 	"dependencies": {
 		"vibe-d": ">=0.7.17",
-		"hibernated": "~master",
-        "libdjson": "~master"
+		"hibernated": ">=0.2.11"
 	},
 	"subConfigurations": {
 		"hibernated":"PGSQL",
