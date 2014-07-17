@@ -18,7 +18,7 @@ class AppConfigUtil : BaseConfigUtil {
     appConfig.address = "127.0.0.1";
 
     auto json = serializeToJson(appConfig);
-    write("config.json", json.toString());
+    write("config/appconfig.json", json.toString());
   }
 }
 
